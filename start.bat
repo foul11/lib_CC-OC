@@ -1,0 +1,1 @@
+node tools/watcher/watcher.js server src/ --echo "insert 'rm universality.lua && wget {serverAddr}/universality.lua' to robot/computer"
