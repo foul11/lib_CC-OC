@@ -29,7 +29,7 @@ const argv = yargs(hideBin(process.argv))
 	.argv;
 
 const hostDir = path.resolve(argv._[1]);
-const lua53PreProcessPath = path.resolve("../lua-preprocessor/__init__.lua");
+const lua53PreProcessPath = path.resolve("tools/lua-preprocessor/__init__.lua");
 
 function getIPAddress(){
 	var interfaces = require('os').networkInterfaces();
